@@ -1,4 +1,4 @@
-def github_id = 'Steve-Cook95'
+def github_id = 'steve-cook95'
 
 // DO NOT CHANGE THE VARIBLES BELOW THIS LINE 
 
