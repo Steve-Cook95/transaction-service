@@ -4,7 +4,7 @@ import pytest
 
 def test_should_return_dictionary_when_byte_stream_provided():
     event = b'{"accountNumber": "2344234", "name": "john"}'
-    assert type(transpose_event(event)) is dict
+    assert isinstance(transpose_event(event), dict)
     assert transpose_event(event)['name'] == 'john'
     assert transpose_event(event)['accountNumber'] == '2344234'
 
